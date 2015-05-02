@@ -1,7 +1,7 @@
 {
   "name": "ng-sweet-alert",
   "description": "Sweet Alert Directive",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "authors": [
     "Tushar Borole <tushariscoolster@gmail.com>"
   ],
@@ -11,7 +11,7 @@
   },
   "homepage": "http://tushariscoolster.github.io/ng-sweet-alert/",
   "license": "LGPL-2.1",
-  "main": "dist/ng-fab-form.js",
+  "main": "ng-sweet-alert.js",
   "keywords": ["sweetalert",
                "angular",
                "alert"
