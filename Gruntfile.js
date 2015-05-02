@@ -29,7 +29,8 @@ module.exports = function (grunt)
                 commitMessage: 'Release v%VERSION%',
                 commitFiles: [
                     'bower.json',
-                    'dist/ng-sweet-alert.js'
+                    'ng-sweet-alert.js',
+                    'package.json'
                 ],
                 createTag: true,
                 tagName: 'v%VERSION%',
