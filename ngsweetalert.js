@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('ng-sweet-alert')
+        .module('ng-sweet-alert',[])
         .directive('sweetalert', sweetalert);
 
     sweetalert.$inject = ['$parse'];
@@ -33,7 +33,7 @@
                             if (sweetConfirmOption) swal(sweetConfirmOption);
                             if (attrs.sweetOnConfirm) scope.$evalAsync(attrs.sweetOnConfirm);
                         } else {
-                            if (sweetConfirmOption) swal(sweetConfirmOption);
+                            if (sweetCancelOption) swal(sweetCancelOption);
                             if (attrs.sweetOnCancel) scope.$evalAsync(attrs.sweetOnCancel);
                         }
                     });
