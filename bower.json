@@ -1,27 +1,43 @@
 {
-  "name": "ng-sweet-alert",
-  "description": "Sweet Alert Directive",
-  "version": "0.0.0",
+  "name": "ng-fab-form",
+  "description": "Fabulous helper to help you with your daily form coding.",
+  "version": "1.2.5",
   "authors": [
-    "Tushar Borole <tushariscoolster@gmail.com>"
+    "Johannes Millan <johannes.millan@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tushariscoolster/ng-sweet-alert"
+    "url": "https://github.com/johannesjo/ng-fab-form.git"
   },
-  "homepage": "http://tushariscoolster.github.io/ng-sweet-alert/",
+  "homepage": "http://johannesjo.github.io/ng-fab-form/",
   "license": "LGPL-2.1",
   "main": "dist/ng-fab-form.js",
-  "keywords": ["sweetalert",
-               "angular",
-               "alert"
+  "keywords": [
+    "angular",
+    "AngularJS",
+    "form",
+    "forms",
+    "form helper",
+    "validation",
+    "autofocus",
+    "scroll to",
+    "input",
+    "select",
+    "textarea"
   ],
   "ignore": [
     "gh-pages",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "sweetalert": "*"
+    "angular": "~1.3.4",
+    "angular-messages": "~1.3.4"
+  },
+  "devDependencies": {
+    "angular-animate": "~1.3.4",
+    "angular-mocks": "~1.3.13"
   }
 }
