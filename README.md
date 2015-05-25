@@ -13,6 +13,12 @@ Install via bower
 bower install ng-sweet-alert
 ```
 
+Install via npm
+
+```sh
+npm install ng-sweet-alert
+```
+
 Add dependency in your module
 
 ```javascript
