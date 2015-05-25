@@ -1,3 +1,5 @@
+[![Bower version](https://badge.fury.io/bo/ng-sweet-alert.png)](http://badge.fury.io/bo/ng-sweet-alert)
+
 # ng-sweet-alert
 
 ng-sweet-alert (angular sweetalert) is an directive for sweet alert 
