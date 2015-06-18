@@ -1,6 +1,6 @@
 # ng-sweet-alert
 
-ng-sweet-alert is an directive for sweet alert [sweetalert]
+ng-sweet-alert is an directive for sweet alert [sweetalert]. Integration of sweet alert becomes very easy with angular js. There is no need to write a single line of javascript code. Only few html attribute is enough to use sweetalert.
 
 # Getting Started
 
