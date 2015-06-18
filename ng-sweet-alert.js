@@ -1,3 +1,13 @@
+/**
+ *  * @description directive for sweet alert 
+    * @author Tushar Borole
+    * @createDate 18/04/2015
+    * @version 1.0.3
+    * @lastmodifiedDate 06/18/2015
+    */
+
+
+
 (function () {
     'use strict';
 
@@ -19,8 +29,7 @@
         return directive;
 
         function link(scope, element, attrs, controller) {
-            var sweetElement = angular.element(element)
-            console.log(sweetElement)
+            var sweetElement = angular.element(element);
             sweetElement.click(function () {
                 var sweetOptions = scope.$eval(attrs.sweetOptions);
                 var sweetConfirmOption = scope.$eval(attrs.sweetConfirmOption);
