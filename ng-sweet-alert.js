@@ -10,6 +10,12 @@
 
 (function () {
     'use strict';
+    
+    
+	// Check we have sweet alert js included
+	if (angular.isUndefined(window.swal)) {
+		throw "Please inlcude sweet alert js and css from http://t4t5.github.io/sweetalert/";
+	}
 
     angular
         .module('ng-sweet-alert',[])
