@@ -1,3 +1,8 @@
+[![Latest Stable Version](https://img.shields.io/npm/v/ng-sweet-alert.svg?style=flat-square)](https://www.npmjs.com/package/ng-sweet-alert)
+[![NPM Downloads](https://img.shields.io/npm/dm/ng-sweet-alert.svg?style=flat-square)](https://www.npmjs.com/package/ng-sweet-alert)
+[![Latest Stable Version](https://img.shields.io/bower/v/ng-sweet-alert.svg?style=flat-square)](http://bower.io/search/?q=ng-sweet-alert)
+
+
 # ng-sweet-alert
 
 ng-sweet-alert is an directive for sweet alert [sweetalert]. Integration of sweet alert becomes very easy with angular js. There is no need to write a single line of javascript code. Only few html attribute is enough to use sweetalert.
