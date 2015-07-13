@@ -1,6 +1,8 @@
 [![Latest Stable Version](https://img.shields.io/npm/v/ng-sweet-alert.svg?style=flat-square)](https://www.npmjs.com/package/ng-sweet-alert)
 [![NPM Downloads](https://img.shields.io/npm/dm/ng-sweet-alert.svg?style=flat-square)](https://www.npmjs.com/package/ng-sweet-alert)
 [![Latest Stable Version](https://img.shields.io/bower/v/ng-sweet-alert.svg?style=flat-square)](http://bower.io/search/?q=ng-sweet-alert)
+[![Build Status](https://img.shields.io/github/forks/tushariscoolster/ng-sweet-alert.svg?style=flat-square)](https://github.com/tushariscoolster/ng-sweet-alert)
+[![Build Status](https://img.shields.io/github/stars/tushariscoolster/ng-sweet-alert.svg?style=flat-square)](https://github.com/tushariscoolster/ng-sweet-alert)
 
 
 # ng-sweet-alert
