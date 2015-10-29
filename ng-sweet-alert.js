@@ -47,7 +47,7 @@
                         if (isConfirm) {
                             if (sweetConfirmOption) swal(sweetConfirmOption);
                             if (attrs.sweetOnConfirm) scope.$evalAsync(attrs.sweetOnConfirm);
-                              $(element).trigger("click");
+                               sweetElement.trigger("click");
                         } else {
                             if (sweetCancelOption) swal(sweetCancelOption);
                             if (attrs.sweetOnCancel) scope.$evalAsync(attrs.sweetOnCancel);
