@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/github/stars/tushariscoolster/ng-sweet-alert.svg?style=flat-square)](https://github.com/tushariscoolster/ng-sweet-alert)
 
 
-# ng-sweet-alert
+## ng-sweet-alert
 
 ng-sweet-alert is an directive for sweet alert [sweetalert]. Integration of sweet alert becomes very easy with angular js. There is no need to write a single line of javascript code. Only few html attribute is enough to use sweetalert.
 
@@ -29,13 +29,18 @@ Add dependency in your module
 angular.module('yourApp',[   'ng-sweet-alert' ]); 
 ```
 
+# Demo
+
+Have a look at the [DEMO](http://tushariscoolster.github.io/ng-sweet-alert) or the [plunkr](http://plnkr.co/edit/OBhogm1ZfaGKN466Dijv?p=preview)! Edit and Fork :)
+
+
 # Configure
 
 ```html
 <input sweetalert sweet-options="{title: 'Are you sure?',text: 'You will not be able to recover this imaginary file!',type: 'warning',showCancelButton: true,confirmButtonColor: '#DD6B55',confirmButtonText: 'Yes, delete it!',cancelButtonText: 'No, cancel plx!'}" sweet-confirm-option="{title: 'Deleted!',text: 'Your imaginary file has been deleted.',type: 'success'}" sweet-cancel-option="{title: 'Cancelled!',text: 'Your imaginary file is safe',type: 'error'}" type="submit" name="login-submit" sweet-on-cancel="checkCancel()" sweet-on-confirm="checkConfirm()" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
 ```
 
-### Documentation
+# Documentation
 
 
 |                  | Option| 
@@ -49,7 +54,7 @@ angular.module('yourApp',[   'ng-sweet-alert' ]);
 
 ----------
 
-## Contributing
+# Contributing
 
 Open an issue first to discuss potential changes/additions. If you have questions with the guide, feel free to leave them as issues in the repository. If you find a typo, create a pull request. The idea is to keep the content up to date and use github’s native feature to help tell the story with issues and PR’s, which are all searchable via google. Why? Because odds are if you have a question, someone else does too! You can learn more here at about how to contribute.
 
