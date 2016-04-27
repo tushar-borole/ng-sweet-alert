@@ -42,7 +42,7 @@
                 var sweetCancelOption = scope.$eval(attrs.sweetCancelOption);
 
 
-                swal(sweetOptions,
+                swal(sweetOptions).then(
                     function (isConfirm) {
                         if (isConfirm) {
                             if (sweetConfirmOption) swal(sweetConfirmOption);
