@@ -42,12 +42,12 @@
                 var sweetCancelOption = scope.$eval(attrs.sweetCancelOption);
 
 
-                swal(sweetOptions,
+                swal(sweetOptions).then(
                     function (isConfirm) {
                         if (isConfirm) {
                             if (sweetConfirmOption) swal(sweetConfirmOption);
                             if (attrs.sweetOnConfirm) scope.$evalAsync(attrs.sweetOnConfirm);
-                               sweetElement.trigger("click");
+                               //sweetElement.trigger("click");
                         } else {
                             if (sweetCancelOption) swal(sweetCancelOption);
                             if (attrs.sweetOnCancel) scope.$evalAsync(attrs.sweetOnCancel);
