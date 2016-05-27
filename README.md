@@ -54,6 +54,46 @@ Have a look at the [DEMO](http://tushariscoolster.github.io/ng-sweet-alert) or t
 
 ----------
 
+  ## Use SweetAlert as service
+  
+  swal() gets two arguments;
+  first argument is parameters Objects (with default values).
+  second argument is Callback function when clicking on "OK"/"Cancel", which is a promise.
+  register to the promise (using 'then') and handle the resolve / reject according to your business logic.
+  
+  Add 'SweetAlert' to your directive / controller / ect)
+  Use SweetAlert.confirm(msg, options) / SweetAlert.alert(msg, options) / SweetAlert.info(msg, options) / SweetAlert.success(msg, options)
+  pass arguments:
+  
+  msg; String - The message to be displayed in the alert / confirm box (mandatory).
+  options; Object (optinal):
+    title: String - the title of the box.
+    type: String - "warning" / "info" / "error" / "success" / "" (empty string will not display a graphic icon).
+    showCancelButton: Boolean - shows the "cancel" button (true will behave like confirm dialog, false will behave like alert dialog).
+  
+  Use returned promise;
+  
+  ```javascript
+  SweetAlert.confirm("Are you sure?", {title : "Careful now!"})
+            .then(function(p) { do something on success },
+                  function(p) { do something on fail }
+            );
+  
+  SweetAlert.success("You have successfully completed our poll!", {title: "Good job!"});
+```
+
+
+## Documentation: SweetAlert as a service 
+
+
+|                  | Option| 
+ ----------------- | ---------------------------- | ------------------
+| msg (mandatory)| `"Are you sure you want to do that.."` 
+| options| `"{title: 'Delete this?', type: 'warning' showCancelButton: true}"`            
+
+
+----------
+
 ## Contributing
 
 Open an issue first to discuss potential changes/additions. If you have questions with the guide, feel free to leave them as issues in the repository. If you find a typo, create a pull request. The idea is to keep the content up to date and use github’s native feature to help tell the story with issues and PR’s, which are all searchable via google. Why? Because odds are if you have a question, someone else does too! You can learn more here at about how to contribute.
