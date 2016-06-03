@@ -54,7 +54,7 @@ Have a look at the [DEMO](http://tushariscoolster.github.io/ng-sweet-alert) or t
 
 ----------
 
-  ## Use SweetAlert as service
+## Use SweetAlert as service
   
   swal() gets two arguments;
   first argument is parameters Objects (with default values).
@@ -137,4 +137,3 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 This is made in India with love and passion  ʕ´•ᴥ•`ʔ
 
 <a href="../../" target="_blank"><img src="http://lonamowers-hrd.appspot.com/images/made_india.jpg" height="200"></a>
-
