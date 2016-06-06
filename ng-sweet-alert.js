@@ -116,10 +116,10 @@
         type: "warning",
         showCancelButton: true
       }, options);
-      swal(options, function() {
-        defered.resolve();
-      }, function() {
-        defered.reject();
+      swal(options, function(r) {
+        defered.resolve(r);
+      }, function(e) {
+        defered.reject(e);
       });
       return defered.promise;
     }
