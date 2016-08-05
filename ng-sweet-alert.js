@@ -107,6 +107,12 @@
         type: "success"
       }, options));
     }
+    
+    function swal_error(message, options) {
+      return swal_alert(message, angular.extend({
+        type: "error"
+      }, options));
+    }
 
     function swal_confirm(message, options) {
       var defered = $q.defer();
@@ -127,7 +133,8 @@
       alert: swal_alert,
       confirm: swal_confirm,
       info: swal_info,
-      success: swal_success
+      success: swal_success,
+      error: swal_error
     };
   }
 
