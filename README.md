@@ -43,13 +43,13 @@ Have a look at the [DEMO](http://tushariscoolster.github.io/ng-sweet-alert) or t
 ## Documentation
 
 
-|                  | Option| 
- ----------------- | ---------------------------- | ------------------
-| sweet-options | `'{title: 'Are you sure?',text: 'You will not be able to recover this imaginary file!',type: 'warning',showCancelButton: true,confirmButtonColor: '#DD6B55',confirmButtonText: 'Yes, delete it!',cancelButtonText: 'No, cancel plx!'}'` 
-| sweet-confirm-option| `"{title: 'Deleted!',text: 'Your imaginary file has been deleted.',type: 'success'}"`            
-| sweet-cancel-option| `{title: 'Cancelled!',text: 'Your imaginary file is safe',type: 'error'}` 
-| sweet-on-cancel| `checkCancel()` 
-| sweet-on-confirm| `checkConfirm()` 
+|Attribute|Options object|
+|-----------------|:----------------------------|
+|sweet-options | `'{title: 'Are you sure?',text: 'You will not be able to recover this imaginary file!',type: 'warning',showCancelButton: true,confirmButtonColor: '#DD6B55',confirmButtonText: 'Yes, delete it!',cancelButtonText: 'No, cancel plx!'}'` |
+|sweet-confirm-option| `"{title: 'Deleted!',text: 'Your imaginary file has been deleted.',type: 'success'}"`            |
+|sweet-cancel-option| `{title: 'Cancelled!',text: 'Your imaginary file is safe',type: 'error'}` |
+|sweet-on-cancel| `checkCancel()` |
+|sweet-on-confirm| `checkConfirm()` |
 
 
 ----------
@@ -86,8 +86,8 @@ Have a look at the [DEMO](http://tushariscoolster.github.io/ng-sweet-alert) or t
 ## Documentation: SweetAlert as a service 
 
 
-|                  | Option| 
- ----------------- | ---------------------------- | ------------------
+| Parameter|Value| 
+|-----------------|:----------------------------|
 | msg (mandatory)| `"Are you sure you want to do that.."` 
 | options| `"{title: 'Delete this?', type: 'warning' showCancelButton: true}"`            
 
